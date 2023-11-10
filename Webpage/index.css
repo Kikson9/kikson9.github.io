@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #909193;
+    /* display: block; */
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    /* width: 1280px; */
+    /* margin: 0 auto;*/
+}
+
+.about {
+    display: flex;
+}
+
+.moon {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 89px 89px 89px 89px;
+   -webkit-border-radius: 89px 89px 89px 89px;
+   -moz-border-radius: 89px 89px 89px 89px;
+    /* background-color: rgb(187, 184, 184);*/}
+
+.main {
+    border: 1px solid black;
+    margin-top: 95px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 100px;
+    background-color: #F2F9FE;
+    padding-top: 2em;
+    padding-left: 5em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  
+.active {
+    float:right;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2, p, a {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+button {
+    font-size: 16px;
+    background-color: #2A4DD0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+}
+    
+.both-containers {
+    display: flex;
+}
+
+.right-container {
+    padding-top: 6rem;
+    /* padding-right: 35rem; */
+}
+
+.left-container {
+    float: right;
+}
+
+.heroimg {
+    max-width: 100%; /* The image won't exceed the width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    width: 1000px; /* Set a specific width (adjust as needed) */
+    padding-top: 50px;
+}
+
+
+.first-text {
+    padding-bottom: 10px;
+}
+
+.second-text {
+    padding-bottom: 40px;
+}
+
+.third-text{
+    padding-bottom: 20px;
+}
+
+#button, .after-button {
+    display: flex;
+}
+
+button + a {
+    color: #2A4DD0; 
+    text-decoration: underline;
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.after-button {
+    padding-top: 30px;
+}
+
+.last-type {
+    padding-left: 10px;
+}
+
+ @media screen and (max-width: 720px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .moon {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        border-radius: 89px 89px 89px 89px;
+       -webkit-border-radius: 89px 89px 89px 89px;
+       -moz-border-radius: 89px 89px 89px 89px;
+         background-color: rgb(187, 184, 184);}
+    
+    .main {
+        border: 1px solid black;
+        margin-top: 95px;
+        margin-bottom: 100px;
+        margin-right: 80px;
+        margin-left: 100px;
+        background-color: #F2F9FE;
+        padding-top: 2em;
+        padding-left: 5em;
+        padding-right: 3em;
+        padding-bottom: 2em;
+    }
+    
+    ul {
+    
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+      } */
+    
+}
